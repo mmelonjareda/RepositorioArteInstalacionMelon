@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class interactuar : MonoBehaviour
 {
+
+
     public float incremento = 1.0f;
     // Start is called before the first frame update
     void Start()
@@ -20,5 +22,10 @@ public class interactuar : MonoBehaviour
     private void OnMouseDown()
     {
         transform.Translate(0, incremento*Time.deltaTime, 0);
+    }
+
+    private void Algo()
+    {
+
     }
 }
